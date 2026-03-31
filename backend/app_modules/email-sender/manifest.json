@@ -1,0 +1,30 @@
+{
+  "name": "E-Mail Sender",
+  "slug": "email-sender",
+  "version": "1.0.0",
+  "author": "OpenAMS",
+  "description": "App zur interaktiven Bearbeitung und zum Versand von E-Mails.",
+  "views": {
+    "send": {
+      "title": "E-Mail senden",
+      "file": "ui.js"
+    },
+    "list": {
+      "title": "Postausgang / Übersicht",
+      "file": "ui_list.js"
+    }
+  },
+  "input_schema": {
+    "to": {"type": "string", "required": true},
+    "subject": {"type": "string", "required": true},
+    "body": {"type": "string", "required": true}
+  },
+  "extraction_prompt": "Extrahiere die Daten für die App 'E-Mail Sender' ausschließlich im XML-Format. Verwende kein JSON, keine Einleitung und keine Markdown-Formatierung.\n\nDU MUSST ALLES IN EINEM ROOT-TAG MIT DEM NAMEN 'email-sender' KAPSELN:\n\n<email-sender>\n  <to>...</to>\n  <subject>...</subject>\n  <body>...</body>\n</email-sender>",
+  "default_config": {
+    "smtp_host": "",
+    "smtp_port": 587,
+    "smtp_user": "",
+    "smtp_pass": "",
+    "smtp_from": ""
+  }
+}

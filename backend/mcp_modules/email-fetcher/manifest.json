@@ -1,0 +1,23 @@
+{
+  "name": "E-Mail Inbox Fetcher",
+  "slug": "email-fetcher",
+  "version": "1.0.0",
+  "author": "OpenAMS",
+  "description": "Erlaubt das automatisierte Abrufen von E-Mails via IMAP. Extrahiert Texte und Anhänge (z.B. PDFs) und übergibt sie an den Workflow.",
+  "capabilities": {
+    "read": ["sync_inbox"],
+    "write": []
+  },
+  "default_config": {
+    "imap_host": "",
+    "imap_port": 993,
+    "imap_user": "",
+    "imap_pass": "",
+    "use_ssl": true,
+    "folder": "INBOX",
+    "delete_after_import": false
+  }
+}
+
+
+

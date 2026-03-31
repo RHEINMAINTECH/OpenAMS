@@ -1,0 +1,22 @@
+{
+  "name": "Coding Agent",
+  "slug": "coding-agent",
+  "version": "1.0.0",
+  "author": "OpenAMS",
+  "description": "A2A-Modul zur asynchronen Delegation von Programmieraufgaben an einen externen dedizierten Coding-Agenten.",
+  "capabilities": {
+    "read": ["status"],
+    "write": ["delegate_task"]
+  },
+  "default_config": {
+    "api_endpoint": "https://api.internal-agents.com/v1/coding-agent",
+    "api_key": ""
+  }
+}
+
+
+
+
+
+
+

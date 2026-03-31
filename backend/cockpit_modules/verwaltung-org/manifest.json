@@ -1,0 +1,13 @@
+{
+  "name": "Verwaltung & Organisation",
+  "slug": "verwaltung-org",
+  "version": "1.0.0",
+  "author": "OpenAMS",
+  "description": "Zentrales Cockpit zur Erfassung und Steuerung von Verwaltungsvorgängen, Dokumenten und Anträgen. Bietet eine Management-Ebene über den Feed.",
+  "default_config": {}
+}
+
+
+
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "Beispiel-CRM",
+  "slug": "beispiel-crm",
+  "version": "1.0.0",
+  "author": "OpenAMS",
+  "description": "Beispiel-MCP-Modul für CRM-Integration. Demonstriert die Lese- und Schreibschnittstellen.",
+  "capabilities": {
+    "read": ["contacts", "deals"],
+    "write": ["contacts", "deals"]
+  },
+  "default_config": {
+    "api_url": "",
+    "api_key": ""
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
