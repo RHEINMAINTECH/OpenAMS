@@ -1,10 +1,10 @@
 # OpenAMS — Agentic Management System
 
+[![Status](https://img.shields.io/badge/Status-Pre--Alpha-red.svg)]()
 [![Python Version](https://img.shields.io/badge/Python-3.11+-3776ab.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-05998b.svg)](https://fastapi.tiangolo.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-336791.svg)](https://www.postgresql.org/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Production--Ready-success.svg)]()
 
 OpenAMS ist ein isoliertes, modulares und hochgradig konfigurierbares **Agentic White-Box System** zur autonomen Verwaltung und Steuerung komplexer Back-Office-Prozesse. Es schließt die Lücke zwischen roher KI-Leistung und strukturierten Geschäftsabläufen durch eine transparente Architektur, in der jeder Gedankengang und jede Aktion der KI auditiert wird.
 
